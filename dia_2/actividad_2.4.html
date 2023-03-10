@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        h1{
+            text-align: left;
+            margin-left: 60px;
+        }
+        fieldset{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre1">Primer nombre:</label><br>
+            <input type="text" id="nombre1" name="nombre1"><br>
+            <label for="nombre2">Segundo nombre:</label><br>
+            <input type="text" id="nombre2" name="nombre2"><br>
+            <label for="nombre1">Apellido paterno:</label><br>
+            <input type="text" id="apellido1" name="apellido1"><br>
+            <label for="nombre2">Apellido materno:</label><br>
+            <input type="text" id="apellido2" name="apellido2"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Genero</legend>
+            <input type="radio" id="hombre" name="sexo" value="hombre">
+            <label for="hombre">Hombre</label><br>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label><br>
+            <input type="radio" id="otro" name="sexo" value="otro">
+            <label for="otro">Otro</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fecha de nacimiento</legend>
+            <label for="dia">Día</label>
+            <select name="dia" id="dia">
+                <option value="">selecciona</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+            </select>
+            <label for="mes">Mes</label>
+            <select name="mes" id="mes">
+                <option value="">selecciona</option>
+                <option value="">Enero</option>
+                <option value="">Febrero</option>
+                <option value="">Marzo</option>
+                <option value="">Abril</option>
+                <option value="">Mayo</option>
+                <option value="">Junio</option>
+                <option value="">Julio</option>
+                <option value="">Agosto</option>
+                <option value="">Septiembre</option>
+                <option value="">Octubre</option>
+                <option value="">Noviembre</option>
+                <option value="">Diciembre</option>
+            </select>
+            <label for="año">Año</label>
+            <select name="año" id="año">
+                <option value="">selecciona</option>
+                <option value="">2005</option>
+                <option value="">2004</option>
+                <option value="">2003</option>
+                <option value="">2002</option>
+                <option value="">2001</option>
+                <option value="">2000</option>
+                <option value="">1999</option>
+                <option value="">1998</option>
+                <option value="">1997</option>
+                <option value="">1996</option>
+                <option value="">1995</option>
+                <option value="">1994</option>
+                <option value="">1993</option>
+                <option value="">1992</option>
+                <option value="">1991</option>
+                <option value="">1990</option>
+                <option value="">1989</option>
+                <option value="">1988</option>
+                <option value="">1987</option>
+                <option value="">1986</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de la cuenta</legend>
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo"><br>
+            <label for="contrasena">Contraseña:</label><br>
+            <input type="password" id="contrasena" name="contrasena"><br>
+            <label for="contrasena2">Confirma tu contraseña:</label><br>
+            <input type="password" id="contrasena2" name="contrasena2">
+        </fieldset>
+        <fieldset>
+            <legend>Residencia</legend>
+            <select>
+                <option value="">Selecciona tu pais</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Perú</option>
+                <option value="argentina">Argentina</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Terminos y condiciones</legend>
+            <input type="checkbox" id="condiciones" name="condiciones" value="acepto">
+            <label for="condiciones">He leído y acepto los terminos y condiciones</label><br>
+        </fieldset>
+    </form>
+</body>
+</html>
