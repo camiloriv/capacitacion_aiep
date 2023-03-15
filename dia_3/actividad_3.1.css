@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+}
+nav{
+    display: flex;
+    margin-left: 700px;
+}
+.nav {
+    background-color: bisque;
+    display: flex;
+    padding: 5px;
+}
+.nav nav p{
+    justify-content: end;
+    margin: auto 10px;
+    padding: 7px;
+    border: 3px solid grey;
+    border-radius: 15px;
+}
+
+nav p:hover{
+    background-color: grey;
+    color:bisque
+}
+.contenido{
+    display: flex;
+}
+aside{
+    background-color: rgb(119, 105, 87);
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+aside .links{
+    margin: 20px 0px;
+}
+ 
+section{
+    margin: 100px 400px;
+    text-align: center;
+    display: inline-block;
+}
+section h2{
+    margin: 20px;
+}
+section img{
+    width: 500px;
+}
+section p{
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+}
+footer p{
+    display: inline-block;
+    margin: 10px;
+}
